@@ -4,25 +4,25 @@
   padding: 0;
 }
 .head {
-  background: rgb(0,0,0)
+  background: #000000;
 }
 .text1 {
   font-weight: 400;
   font-size: 24px;
-  color: rgb(255,255,255)
+  color: #ffffff;
 }
 .log {
   font-weight: 400;
   font-size: 60px;
-  color: rgb(255,255,255)
+  color: #ffffff;
 }
 .text3 {
   font-weight: 400;
   font-size: 30px;
-  color: rgb(255,255,255)
+  color: #ffffff;
 }
 .text4 {
   font-weight: 400;
   font-size: 35px;
-  color: rgb(255,255,255)
+  color: #ffffff;
 }
