@@ -1,0 +1,53 @@
+.main-header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+background: rgb(0, 0, 0);
+}
+.text {
+color:  rgb(255, 255, 255);
+}
+.tel {
+  font-family: LatoRegular;
+  color:  rgb(255, 255, 255);
+  font-size: 24pt;
+}
+.men {
+  font-family: LatoRegular;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:  rgb(255, 255, 255);
+  font-size: 19pt;
+}
+.priv {
+  background: rgb(0, 0, 0);
+}
+.p-text {
+  font-family: LatoThin;
+  color:  rgb(255, 255, 255);
+  font-size: 48pt;
+}
+.textmb {
+  font-family: LatoThin;
+  color:  rgb(255, 255, 255);
+  font-size: 15pt;
+}
+.testimonials {
+  background: rgb(0, 0, 0);
+}
+.p2-text {
+  font-family: LatoSemibold;
+  color:  rgb(255, 255, 255);
+  font-size: 48pt;
+}
+.k-text {
+  font-family: GreatVibesRegular;
+  color:  rgb(255, 255, 255);
+  font-size: 48pt;
+}
+.text2 {
+  color:  rgb(0, 0, 0);
+}
+.foot {
+  background: rgb(0, 0, 0);
+}
