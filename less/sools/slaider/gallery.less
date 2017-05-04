@@ -1,0 +1,40 @@
+.gallery {
+    padding-top: 73px;
+    padding-bottom: 115px;
+
+    &__block {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        margin: 61px -15px 0;
+    }
+
+    &__item {
+        width: 22%;
+        padding: 0 15px;
+        margin-bottom: 46px;
+        position: relative;
+
+        &:hover {
+            .gallery__item-zoom {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__item-zoom {
+        font-size: 32px;
+        text-decoration: none;
+        padding: 100px 0;
+        margin: 0 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: ~"calc(100% - 30px)";
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        background: rgba(0, 0, 0, .5);
+        opacity: 0;
+    }
+}
